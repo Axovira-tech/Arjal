@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARJAL - Shree Dhoomavathi Daivasthana</title>
+
+    <meta name="description" content="Arjal Shree Dhoomavathi Daivasthana, Punar Prathishta Invitation and Details.">
+    <meta name="theme-color" content="#2b0404">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Cinzel for epic golden headers, Outfit for clean reading -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Background Effects -->
+    <div class="bg-vfx"></div>
+    <div class="stars"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ====== UNIFIED NAVIGATION ====== -->
+    <nav class="navbar relative-z">
+        <div class="nav-container">
+            <button class="hamburger"><span></span><span></span><span></span></button>
+            <div class="nav-center-crest">
+                <div class="crest-mask"></div>
+            </div>
+
+            <ul class="nav-links" id="main-nav">
+                <li><a href="#hero" class="nav-link"><span data-en="Home" data-kn="ಮುಖಪುಟ">Home</span></a></li>
+                <li><a href="#history" class="nav-link"><span data-en="History" data-kn="ಇತಿಹಾಸ">History</span></a></li>
+                <li><a href="#schedule" class="nav-link"><span data-en="Schedule"
+                            data-kn="ಕಾರ್ಯಕ್ರಮ">Schedule</span></a></li>
+                <li><a href="#contact" class="nav-link"><span data-en="Contact" data-kn="ಸಂಪರ್ಕಿಸಿ">Contact</span></a>
+                </li>
+            </ul>
+
+            <button class="lang-btn" id="lang-btn">
+                <span class="icon">🌐</span> <span id="current-lang-text">English</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== UNIFIED HERO SECTION ====== -->
+    <section id="hero" class="hero-section relative-z pt-nav">
+        <div class="hero-mask-wrap reveal-anim">
+            <div class="clean-logo-bg"></div>
+        </div>
+
+        <div class="hero-text-wrap text-center reveal-anim delay-1">
+            <h1 class="main-title" data-en="ARJAL" data-kn="ಅರ್ಜಾಲು">ARJAL</h1>
+            <h3 class="sub-title"><span data-en="Shree Dhoomavathi Daivasthana" data-kn="ಶ್ರೀ ಧೂಮಾವತಿ ದೇವಸ್ಥಾನ">Shree
+                    Dhoomavathi Daivasthana</span></h3>
+            <div class="golden-separator short"></div>
+            <p class="date-text"><span data-en="Punar Prathishta Mahotsava 2026"
+                    data-kn="ಪುನರ್ ಪ್ರತಿಷ್ಠಾ ಮಹೋತ್ಸವ 2026">Punar Prathishta Mahotsava 2026</span></p>
+            <p class="date-text-sub"><span data-en="26 March – 29 March 2026" data-kn="26-29 ಮಾರ್ಚ್ 2026">26 March – 29
+                    March 2026</span></p>
+        </div>
+
+        <div class="hero-action-btns text-center reveal-anim delay-2">
+            <div class="btn-group">
+                <a href="#schedule" class="btn-gold-ornate"><span class="emoji">📅</span> <span data-en="View Schedule"
+                        data-kn="ವೇಳಾಪಟ್ಟಿ">View Schedule</span></a>
+                <a href="#contact" class="btn-gold-ornate"><span class="emoji">⬇️</span> <span data-en="Invitation"
+                        data-kn="ಆಮಂತ್ರಣ">Invitation</span></a>
+            </div>
+            <a href="#contact" class="btn-gold-ornate full-w mt-2"><span class="emoji">📍</span> <span
+                    data-en="Get Directions" data-kn="ದಾರಿಯ ನಕ್ಷೆ">Get Directions</span></a>
+        </div>
+    </section>
+
+    <!-- ====== HISTORY / NOSTALGIC PAGE ====== -->
+    <section id="history" class="history-section relative-z section-pad">
+        <div class="container container-max">
+            <div class="ornate-frame reveal-card">
+                <!-- Frame Corners -->
+                <div class="frame-corner tl"></div>
+                <div class="frame-corner tr"></div>
+                <div class="frame-corner bl"></div>
+                <div class="frame-corner br"></div>
+
+                <div class="grid-2col align-center">
+                    <div class="history-content">
+                        <h4 class="kannada-text gold-subheading"><span data-en="ABOUT" data-kn="ಇತಿಹಾಸ">ABOUT</span>
+                        </h4>
+                        <h2 class="section-heading mb-1" data-en="A Legacy of Divine Power"
+                            data-kn="ದೈವಿಕ ಶಕ್ತಿಯ ಇತಿಹಾಸ">A Legacy of Divine Power</h2>
+                        <h3 class="subtitle-gold mb-3"><span data-en="Historic Importance"
+                                data-kn="ಐತಿಹಾಸಿಕ ಮಹತ್ವ">Historic Importance</span></h3>
+
+                        <p class="history-text"
+                            data-en="The Arjal Shree Dhoomavathi Daivasthana holds immense historical significance in the Kumbla region. Situated centrally near Adhur, Madhur, Kapu, and Kasaragod, this sacred sanctuary has been renowned since ancient times for its unyielding miraculous power, blessing devotees and offering refuge for generations."
+                            data-kn="ಕುಂಬಳೆ ಸೀಮೆಯ ಐತಿಹಾಸಿಕ ಮಹತ್ವವನ್ನು ಹೊಂದಿದ ಆಡೂರು, ಮಧೂರು, ಕಾಪು, ಕಾಸರಗೋಡು ಕುಂಜತ್ತೂರು ಗ್ರಾಮದ ಅರ್ಜಾಲು ಶ್ರೀ ಧೂಮಾವತಿ ದೇವಸ್ಥಾನವು ಬಹಳ ಹಿಂದಿನ ಕಾಲದಿಂದಲೂ ಪ್ರಸಿದ್ಧಿಯನ್ನು ಪಡೆದಿದ್ದು, ತನ್ನ ಕಾರಣಿಕ ಶಕ್ತಿಯ ಮೂಲಕ ನಂಬಿದ ಭಕ್ತರಿಗೆ ಅಭಯವನ್ನು ನೀಡುತ್ತಾ ಬಂದಿದೆ.">
+                            The Arjal Shree Dhoomavathi Daivasthana holds immense historical significance in the Kumbla
+                            region. Situated centrally near Adhur, Madhur, Kapu, and Kasaragod, this sacred sanctuary
+                            has been renowned since ancient times for its unyielding miraculous power, blessing devotees
+                            and offering refuge for generations.</p>
+
+                        <p class="history-text mt-2"
+                            data-en="As we embark on the Punar Prathishta Mahotsava, we restore the divine aura and ancient glory of the Daivasthana through sacred rituals spanning four auspicious days. We welcome you to gather in devotion and witness this once-in-a-generation rejuvenation."
+                            data-kn="ದೇವಸ್ಥಾನದ ನೂತನ ನಿರ್ಮಾಣ ಇತ್ಯಾದಿ ಕೆಲಸಗಳು ನಡೆಯುತ್ತಿವೆ. ದೇವಸ್ಥಾನದ ನವೀಕರಣ ಮುಗಿದು ಪುನರ್ ಪ್ರತಿಷ್ಟಾ ಬ್ರಹ್ಮಕಲಶೋತ್ಸವ ವಿಜೃಂಭಣೆಯಿಂದ ಜರುಗಲಿರುವುದು.">
+                            As we embark on the Punar Prathishta Mahotsava, we restore the divine aura and ancient glory
+                            of the Daivasthana through sacred rituals spanning four auspicious days. We welcome you to
+                            gather in devotion and witness this once-in-a-generation rejuvenation.</p>
+                    </div>
+                    <div class="history-image text-center box-shadow-glow image-wrap-ornate">
+                        <img src="assets/temple.png" alt="Ancient Temple" class="fluid-img border-gold-thick">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SCHEDULE DETAILS ====== -->
+    <section id="schedule" class="schedule-section relative-z section-pad">
+        <div class="container container-large">
+
+            <div class="text-center mobile-only pb-3 reveal-card">
+                <h3 class="section-title-mobile" data-en="Mahotsava Schedule" data-kn="ಮಹೋತ್ಸವ ಕಾರ್ಯಕ್ರಮ">Mahotsava
+                    Schedule</h3>
+            </div>
+
+            <div class="grid-2col">
+                <!-- LEFT: Parchment Schedule List -->
+                <div class="parchment-scroll scroll-flex reveal-card">
+                    <h3 class="scroll-title text-center desktop-only" data-en="SCHEDULE" data-kn="ವೇಳಾಪಟ್ಟಿ">SCHEDULE
+                    </h3>
+                    <h2 class="sub-heading-dark text-center desktop-only mb-3" data-en="Auspicious Rituals"
+                        data-kn="ಶುಭ ಕಾರ್ಯಕ್ರಮಗಳು">Auspicious Rituals</h2>
+
+                    <div class="parchment-cards-list">
+                        <!-- item -->
+                        <div class="card-item">
+                            <div class="thumb-wrap"><img src="assets/logo.jpg" alt="Ceremony"></div>
+                            <div class="card-text">
+                                <h4 data-en="26 Mar: Horekanike & Meravanige" data-kn="26 ಮಾರ್ಚ್: ಹಸಿರುವಾಣಿ ಹೊರೆಕಾಣಿಕೆ">
+                                    26 Mar: Horekanike & Meravanige</h4>
+                                <p data-en="Grand start to the Mahotsava with Bhajanas, welcoming ceremonies, and majestic procession."
+                                    data-kn="ಮುಖ್ಯ ರಸ್ತೆಯಿಂದ ಹೊರೆಕಾಣಿಕೆ ಮೆರವಣಿಗೆ, ಭಜನೆ, ಸ್ವಾಗತ.">Grand start to the
+                                    Mahotsava with Bhajanas, welcoming ceremonies, and majestic procession.</p>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="card-item">
+                            <div class="thumb-wrap"><img src="assets/pooja.png" alt="Punar"></div>
+                            <div class="card-text">
+                                <h4 data-en="27 Mar: Prathishta Muhurtha" data-kn="27 ಮಾರ್ಚ್: ಪ್ರತಿಷ್ಠಾ ಮುಹೂರ್ತ">27 Mar:
+                                    Prathishta Muhurtha</h4>
+                                <p data-en="The most sacred timing, Kalasha snana, Mahaganapathi Homa, followed by deep Poojas."
+                                    data-kn="ಮಹಾಗಣಪತಿ ಹೋಮ, ಪ್ರತಿಷ್ಠಾ ಮುಹೂರ್ತ, ಕಲಶ ಸ್ನಾನ.">The most sacred timing,
+                                    Kalasha snana, Mahaganapathi Homa, followed by deep Poojas.</p>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="card-item">
+                            <div class="thumb-wrap"><img src="assets/theyyam.png" alt="Theyyam"></div>
+                            <div class="card-text">
+                                <h4 data-en="28 Mar: Cultural Events" data-kn="28 ಮಾರ್ಚ್: ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮ">28 Mar:
+                                    Cultural Events</h4>
+                                <p data-en="Experience the divine spirit through intense ritual performances and cultural symphony."
+                                    data-kn="ಹರಿಕಥಾ ಪ್ರಸಂಗ, ಕುಣಿತ ಭಜನೆ ಮತ್ತು ಸಾಂಸ್ಕೃತಿಕ ಕಾರ್ಯಕ್ರಮಗಳು.">Experience the
+                                    divine spirit through intense ritual performances and cultural symphony.</p>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="card-item">
+                            <div class="thumb-wrap"><img src="assets/logo.jpg" alt="Prasada"></div>
+                            <div class="card-text">
+                                <h4 data-en="29 Mar: Maha Annadana" data-kn="29 ಮಾರ್ಚ್: ಅನ್ನಸಂತರ್ಪಣೆ">29 Mar: Maha
+                                    Annadana</h4>
+                                <p data-en="Concluding rituals, immense Prasada distribution, and Maha Annadana for thousands of devotees."
+                                    data-kn="ಮಹಾ ಅನ್ನದಾನ ಮತ್ತು ಮಧ್ಯಾಹ್ನ ಪ್ರಸಾದ ವಿತರಣೆ ಮತ್ತು ಸಮಾರೋಪ.">Concluding rituals,
+                                    immense Prasada distribution, and Maha Annadana for thousands of devotees.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button class="btn-solid-dark-gold mx-auto" data-en="Download Full Schedule PDF"
+                            data-kn="ಪೂರ್ಣ ವೇಳಾಪಟ್ಟಿ ಡೌನ್‌ಲೋಡ್">Download Full Schedule PDF</button>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Poster / Map Image -->
+                <div class="invite-card-wrapper reveal-card delay-1">
+                    <div class="invite-img-container text-center image-wrap-ornate">
+                        <img src="assets/logo.jpg" alt="Daivasthana Invitation" class="border-gold-thick"
+                            style="box-shadow: 0 15px 40px rgba(0,0,0,0.8); max-width: 100%; height: auto;">
+                    </div>
+                    <div class="text-center mt-3 desktop-only">
+                        <button class="btn-solid-dark-gold" data-en="View Full Invitation"
+                            data-kn="ಆಮಂತ್ರಣ ವೀಕ್ಷಿಸಿ">View Full Invitation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER / CONTACT ====== -->
+    <footer id="contact" class="footer-contact relative-z section-pad">
+        <h2 class="contact-title text-center cinzel mb-3" data-en="CONTACT" data-kn="ಸಂಪರ್ಕಿಸಿ">CONTACT</h2>
+
+        <div class="address-box text-center">
+            <div class="icon-location-gold mx-auto"><span style="transform: translateY(2px)">📍</span></div>
+            <h4 class="sub-title mt-2 outfit-font">ARJAL</h4>
+            <p class="history-text mt-1" data-en="Shree Dhoomavathi Daivasthana<br>Adkathbail, Kasaragod - 671121"
+                data-kn="ಶ್ರೀ ಧೂಮಾವತಿ ದೇವಸ್ಥಾನ<br>ಅಡ್ಕತ್ತಬೈಲ್, ಕಾಸರಗೋಡು - 671121">Shree Dhoomavathi
+                Daivasthana<br>Adkathbail, Kasaragod - 671121</p>
+            <p class="phone-number cinzel gold-color bold-text mt-2">+91 99933 84813<br>+91 89920 90046</p>
+        </div>
+
+        <!-- Quick Form -->
+        <div class="contact-form-container mt-4">
+            <form class="flex-form">
+                <input type="text" id="name-input" placeholder="Name" class="gold-input">
+                <input type="text" id="phone-input" placeholder="Phone Number" class="gold-input">
+                <button type="button" class="btn-submit" data-en="Submit" data-kn="ಸಲ್ಲಿಸಿ">Submit</button>
+            </form>
+        </div>
+
+        <div class="footer-bottom mt-5 text-center">
+            <p>&copy; 2026 Arjal Punar Prathishta. Since 1990.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
